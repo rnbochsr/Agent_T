@@ -98,7 +98,7 @@ drwxr-xr-x   1 root root 4096 Mar 30  2021 var
 
 There it is, the `flag.txt` file.
 ```bash
-$ cat /flag.txt
+$ cat /root/flag.txt
 flag{41[REDACTED]cb}
 ```
 
