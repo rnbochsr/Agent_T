@@ -58,7 +58,7 @@ The website was a skeleton of placeholder data and links. The page's source code
 #### Web Browser Developer Tools
 I opened the developer tools and reloaded the page. I didn't see anythng of interest. There were no cookies to try to abuse. Just the javascript to run the site and the html code. Checking each tab I saw that the website was listing a development version of `PHP/8.1.0-dev`. That isn't normal practice. Being the framework for the website it should be a production version not a development one. 
 
-Looking bak at my `nmap.scan` file, I see that I already had that information. I guess I didn't read the entire line to the end. I saw port 80 and moved on. Had I taken a moment to read it I might not have needed the hint. But I learned something. So either was it works. 
+Looking back at my `nmap.scan` file, I see that I already had that information. I guess I didn't read the entire line to the end. I saw port 80 and moved on. Had I taken a moment to read it I might not have needed the hint. But I learned something. So either was it works. 
 
 I ran a search for exploits of this PHP version and found an entry in the `exploit-db.com` database. It was a Python script that is supposed to generate a pseudo-shell. All the script needs is the URL. It won't be fully interactve, but we can look around. 
 
