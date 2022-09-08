@@ -1,0 +1,14 @@
+# Nmap 7.80 scan initiated Mon Sep  5 22:46:25 2022 as: nmap -sC -sV -v -oN scans/nmap.scan agent-t
+Nmap scan report for agent-t (10.10.245.239)
+Host is up (0.0011s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    PHP cli server 5.5 or later (PHP 8.1.0-dev)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title:  Admin Dashboard
+MAC Address: 02:0B:16:F2:06:F5 (Unknown)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep  5 22:46:32 2022 -- 1 IP address (1 host up) scanned in 7.18 seconds
